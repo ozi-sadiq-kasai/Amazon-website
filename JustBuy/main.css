@@ -92,10 +92,24 @@ header{
   font-size: 0.9rem;
   text-transform: uppercase;
 }
+.cart-price{
+  font-weight: 600;
+}
+.cart-quantity{
+  border: 1px solid var(--text-color);
+  outline-color: var(--main-color);
+  width:2.4rem ;
+  text-align: center;
+  font-size: 1rem;
+}
+.cart-remove{
+  
+}
 .cart-box{
   display:grid;
-  /* grid-template-columns:32% 50% 18%; */
   grid-template-columns:2fr 3fr 1fr;
+  align-items: center;
+  gap: 1rem;
 }
 /* Title */
 .section-title{
